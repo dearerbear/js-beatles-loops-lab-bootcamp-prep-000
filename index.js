@@ -26,7 +26,7 @@ function johnLennonFacts(facts) {
   var l = facts.length;
   // console.log(l)
   while (i<l) {
-    console.log(fact[i] + "!")
+    console.log(facts[i] + "!")
     i++;
   }
   // return applause;
