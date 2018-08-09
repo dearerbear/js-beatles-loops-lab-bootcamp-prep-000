@@ -29,7 +29,7 @@ function johnLennonFacts(facts) {
     applause.push((facts[i] + "!"))
     i++;
   }
-  console.log(applause)
+  return(applause)
 }
 
 johnLennonFacts(statements)
