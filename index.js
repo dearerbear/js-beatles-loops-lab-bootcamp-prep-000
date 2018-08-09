@@ -21,12 +21,15 @@ var statements = [
 
 
 function johnLennonFacts(facts) {
-
   var applause = new Array();
   var l = facts.length;
-  console.log(l)
-
-  return applause;
+  // console.log(l)
+  while (i<l) {
+    let i = 0;
+    console.log(fact[i] + "!")
+    i++;
+  }
+  // return applause;
 }
 
 johnLennonFacts(statements)
