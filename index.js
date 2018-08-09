@@ -29,4 +29,4 @@ function johnLennonFacts(facts) {
   return applause;
 }
 
-johnLennonFacts(facts)
+johnLennonFacts(statements)
