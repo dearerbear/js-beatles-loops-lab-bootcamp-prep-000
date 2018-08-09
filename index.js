@@ -27,3 +27,5 @@ function johnLennonFacts(facts) {
 
   return applause;
 }
+
+johnLennonFacts()
