@@ -32,4 +32,15 @@ function johnLennonFacts(facts) {
   return(applause)
 }
 
-johnLennonFacts(statements)
+
+// johnLennonFacts(statements)
+
+
+function iLoveTheBeatles(number) {
+  var love = new Array()
+  do{
+    love.push("I love the Beatles!")
+    number--
+  } 
+  while (number < 15 );
+}
