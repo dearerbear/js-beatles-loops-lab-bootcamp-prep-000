@@ -3,7 +3,7 @@ var musicians = ["Peter", "Paul", "Mary"]
 var instruments = ["Uke", "Mando", "Sweet Harmonium"]
 
 function theBeatlesPlay(musicians, instruments){
-  storage = [];
+  var storage = new Array();
   for (let i=0; musicians[i]; i++) {
     storage.push(instruments[i])
   }
