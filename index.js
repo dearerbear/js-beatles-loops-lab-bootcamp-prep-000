@@ -23,7 +23,7 @@ var facts = [
 function johnLennonFacts(facts) {
   var applause = new Array();
   var l = facts.length;
-  console.log(l)
+  console.log(facts.length)
 
   return applause;
 }
