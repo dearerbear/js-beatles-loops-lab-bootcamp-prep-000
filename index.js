@@ -8,4 +8,5 @@ function theBeatlesPlay(musicians, instruments){
     storage.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   console.log(storage)
+  return storage;
 }
