@@ -22,10 +22,10 @@ var statements = [
 
 function johnLennonFacts(facts) {
   var applause = new Array();
+  let i = 0;
   var l = facts.length;
   // console.log(l)
   while (i<l) {
-    let i = 0;
     console.log(fact[i] + "!")
     i++;
   }
